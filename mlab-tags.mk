@@ -4,8 +4,7 @@ build-GITPATH                   := git://github.com/functor/build@mlab-centos6.8
 
 mkinitrd-GITPATH		:= git://git.planet-lab.org/mkinitrd.git@mkinitrd-5.1.19.6-2
 linux-2.6-BRANCH		:= 32 # This line is not so defunct
-linux-2.6-GITPATH		:= git://github.com/functor/linux-2.6.git@rhel6.8-virgin-32
-## linux-2.6-GITPATH		:= git://github.com/functor/linux-2.6.git@rhel6.8-mlab-dev
+linux-2.6-GITPATH		:= git://github.com/functor/linux-2.6.git@rhel6.8-mlab-dev
 # help out spec2make on f8 and centos5, due to a bug in rpm
 ifeq "$(DISTRONAME)" "$(filter $(DISTRONAME),f8 centos5 centos6)"
 kernel-WHITELIST-RPMS	:= kernel-devel,kernel-headers
