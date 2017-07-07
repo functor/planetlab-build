@@ -1,6 +1,6 @@
 # build-GITPATH is now set by vbuild-nightly.sh to avoid duplication (not now, look below.)
 
-build-GITPATH                   := git://github.com/functor/build@mlab-centos6.8-i386-dev
+build-GITPATH                   := git://github.com/functor/planetlab-build@mlab-centos6.8-i386-dev
 
 mkinitrd-GITPATH		:= git://git.planet-lab.org/mkinitrd.git@mkinitrd-5.1.19.6-2
 linux-2.6-BRANCH		:= 32 # This line is not so defunct
@@ -47,7 +47,7 @@ monitor-GITPATH			:= git://git.planet-lab.org/monitor@monitor-3.1-6
 PLCRT-SVNPATH			:= http://svn.planet-lab.org/svn/PLCRT/tags/PLCRT-1.0-11
 pyopenssl-GITPATH               := git://git.planet-lab.org/pyopenssl.git@pyopenssl-0.9-2
 ###
-pyaspects-GITPATH		:= git://git.planet-lab.org/pyaspects.git@pyaspects-0.4.1-3
+pyaspects-GITPATH		:= git://github.com/functor/pyaspects.git@pyaspects-0.4.1-3
 omf-GITPATH                     := git://git.onelab.eu/omf.git@omf-5.3-11
 ###
 sfa-GITPATH                     := git://git.planet-lab.org/sfa.git@sfa-2.1-25
