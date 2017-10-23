@@ -283,7 +283,7 @@ ALL += vsys-scripts
 # plcapi
 #
 plcapi-MODULES := plcapi
-plcapi-SPEC := PLCAPI.spec
+plcapi-SPEC := plcapi.spec
 ALL += plcapi
 IN_MYPLC += plcapi
 
