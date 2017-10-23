@@ -408,20 +408,20 @@ IN_NODEIMAGE += pyplnet
 IN_MYPLC += pyplnet
 IN_BOOTCD += pyplnet
 
-#
-# OMF resource controller
-#
-omf-resctl-MODULES := omf
-omf-resctl-SPEC := omf-resctl.spec
-ALL += omf-resctl
-IN_SLICEIMAGE += omf-resctl
+##
+## OMF resource controller
+##
+# omf-resctl-MODULES := omf
+# omf-resctl-SPEC := omf-resctl.spec
+# ALL += omf-resctl
+# IN_SLICEIMAGE += omf-resctl
 
-#
-# OMF exp controller
-#
-omf-expctl-MODULES := omf
-omf-expctl-SPEC := omf-expctl.spec
-ALL += omf-expctl
+##
+## OMF exp controller
+##
+#omf-expctl-MODULES := omf
+#omf-expctl-SPEC := omf-expctl.spec
+#ALL += omf-expctl
 
 #
 # bootcd
