@@ -1,6 +1,6 @@
 # build-GITPATH is now set by vbuild-nightly.sh to avoid duplication (not now, look below.)
 
-build-GITPATH                   := git://github.com/functor/planetlab-build@mlab-centos6.8-i386-dev
+build-GITPATH                   := git://github.com/functor/planetlab-build@planetlab-centos6.8-x86-dev
 
 mkinitrd-GITPATH		:= git://git.planet-lab.org/mkinitrd.git@mkinitrd-5.1.19.6-2
 linux-2.6-BRANCH		:= 32 # This line is not so defunct
