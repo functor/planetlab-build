@@ -10,10 +10,10 @@ baseurl=@MIRRORURL@/centos/6/updates/$basearch/
 gpgcheck=1
 gpgkey=@MIRRORURL@/centos/RPM-GPG-KEY-CentOS-6
 
-[epel]
-name=Extra Packages for Enterprise Linux 6 - $basearch
-baseurl=@MIRRORURL@/epel/6/i386/
-failovermethod=priority
-enabled=1
-gpgcheck=1
-gpgkey=@MIRRORURL@/epel/RPM-GPG-KEY-EPEL-6
+# [epel]
+# name=Extra Packages for Enterprise Linux 6 - $basearch
+# baseurl=@MIRRORURL@/epel/6/i386/
+# failovermethod=priority
+# enabled=1
+# gpgcheck=1
+# gpgkey=@MIRRORURL@/epel/RPM-GPG-KEY-EPEL-6
